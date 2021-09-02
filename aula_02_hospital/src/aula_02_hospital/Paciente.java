@@ -4,6 +4,6 @@ public class Paciente {
 	public String nomeCompleto;
 	public String rg;
 	public String cpf;
-	public String telefoneContato;
+	public String telefone;
 	public Endereco endereco;
 }

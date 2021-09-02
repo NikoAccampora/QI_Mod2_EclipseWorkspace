@@ -1,9 +1,11 @@
 package aula_02_hospital;
 
+import java.time.LocalDate;
+
 public class Internacao {
-	public String medicoResponsavel;
-	public Paciente paciente;
-	public String dataInternacao;
-	public String dataAlta;
-	public String observacoes;
+	private Medico medico;
+	private Paciente paciente;
+	private String observacoes;
+	private LocalDate dataInternacao;
+	private LocalDate dataAlta;
 }
